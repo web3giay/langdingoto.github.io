@@ -1,0 +1,687 @@
+
+
+
+div#vnt-row1.lazyloading .title-row1 h2{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row1.lazyloading.show .title-row1 h2{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row1.lazyloading .title-row1 img{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row1.lazyloading.show .title-row1 img{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row1.lazyloading .content p {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row1.lazyloading.show .content p {
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row1.lazyloading .text2 {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row1.lazyloading.show .text2{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row1.lazyloading .text1 {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transform: translateX(50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row1.lazyloading.show .text1{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+
+/*==================================================*/
+div#vnt-row2.lazyloading h2{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row2.show.lazyloading h2{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row2.lazyloading .product .wrap_item{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row2.lazyloading.show .product .wrap_item{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+
+/*==================================================*/
+#vnt-row3.lazyloading {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+#vnt-row3.show.lazyloading {
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+
+/*==================================================*/
+#vnt-row4.lazyloading{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+#vnt-row4.show.lazyloading{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+/*==================================================*/
+div#vnt-row5.lazyloading .wrap_item .item .i-desc .i-content h3{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transform: translateX(50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5.lazyloading.show .wrap_item .item .i-desc .i-content h3{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5.lazyloading .wrap_item .item .i-desc .i-content h4{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transform: translateX(50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5.lazyloading.show .wrap_item .item .i-desc .i-content h4{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5.lazyloading .wrap_item .item .i-desc .i-content p{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transform: translateX(50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5.lazyloading.show .wrap_item .item .i-desc .i-content p{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+
+/*==================================================*/
+div#vnt-row5a.lazyloading .wrap_item .item .i-desc .i-content h3{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5a.lazyloading.show .wrap_item .item .i-desc .i-content h3{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5a.lazyloading .wrap_item .item .i-desc .i-content h4{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5a.lazyloading.show .wrap_item .item .i-desc .i-content h4{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5a.lazyloading .wrap_item .item .i-desc .i-content p{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5a.lazyloading.show .wrap_item .item .i-desc .i-content p{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+/*==================================================*/
+div#vnt-row5b.lazyloading .wrap_item .item .i-desc .i-content h3{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5b.lazyloading.show .wrap_item .item .i-desc .i-content h3{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5b.lazyloading .wrap_item .item .i-desc .i-content h4{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5b.lazyloading.show .wrap_item .item .i-desc .i-content h4{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5b.lazyloading .wrap_item .item .i-desc .i-content p{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5b.lazyloading.show .wrap_item .item .i-desc .i-content p{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5b.lazyloading .wrap_item .item .i-desc .i-content ul li{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5b.lazyloading.show .wrap_item .item .i-desc .i-content ul li{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5b.lazyloading .wrap_item .item .i-img .form .title-form{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transform: translateX(50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5b.lazyloading.show .wrap_item .item .i-img .form .title-form{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row5b.lazyloading .wrap_item .item .i-img .form .row-form{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transform: translateX(50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row5b.lazyloading.show .wrap_item .item .i-img .form .row-form{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+
+/*==================================================*/
+div#vnt-row6.lazyloading .img-main .title-row6{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row6.lazyloading.show .img-main .title-row6{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row6.lazyloading .img-main .img{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transform: translateX(50px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row6.lazyloading.show .img-main .img{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+div#vnt-row6.lazyloading .img-fix{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+div#vnt-row6.lazyloading.show .img-fix{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+
+/*==================================================*/
+#vnt-row7.lazyloading .title-row7{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+#vnt-row7.show.lazyloading .title-row7{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+#vnt-row7.lazyloading .box-row7 .sub-box{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+#vnt-row7.show.lazyloading .box-row7 .sub-box{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+/*==================================================*/
+#vnt-row9.lazyloading .slide-row9 .title-row9{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+#vnt-row9.show.lazyloading .slide-row9 .title-row9{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+#vnt-row9.lazyloading .slide-row9 #slide-row9 .box-slider .img{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    transform: translateX(-30px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+#vnt-row9.show.lazyloading .slide-row9 #slide-row9 .box-slider .img{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+#vnt-row9.lazyloading .slide-row9 #slide-row9 .box-slider .content{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    -o-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+#vnt-row9.show.lazyloading .slide-row9 #slide-row9 .box-slider .content{
+    opacity: 1;
+    visibility: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+}
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+    div#vnt-row11.lazyloading .hotline .box-num .text1{
+       opacity: 0;
+       visibility: hidden;
+       -webkit-transition: all 1s linear 0.3s;
+       -o-transition: all 1s linear 0.3s;
+       transition: all 1s linear 0.3s;
+       -webkit-transform: translateY(35px);
+       -ms-transform: translateY(35px);
+       -o-transform: translateY(35px);
+       transform: translateY(35px);
+    }
+    div#vnt-row11.lazyloading.show .hotline .box-num .text1{
+        opacity: 1;
+        visibility: initial;
+        -webkit-transform: initial;
+        -ms-transform: initial;
+        -o-transform: initial;
+        transform: initial;
+    }
+    div#vnt-row11.lazyloading .hotline .box-num .number{
+       opacity: 0;
+       visibility: hidden;
+       -webkit-transition: all 2s linear 0.4s;
+       -o-transition: all 2s linear 0.4s;
+       transition: all 2s linear 0.4s;
+       -webkit-transform: translateY(35px);
+       -ms-transform: translateY(35px);
+       -o-transform: translateY(35px);
+       transform: translateY(35px);
+    }
+    div#vnt-row11.lazyloading.show .hotline .box-num .number{
+        opacity: 1;
+        visibility: initial;
+        -webkit-transform: initial;
+        -ms-transform: initial;
+        -o-transform: initial;
+        transform: initial;
+    }
+    div#vnt-row11.lazyloading .hotline .text2 h3{
+       opacity: 0;
+       visibility: hidden;
+       -webkit-transition: all 2s linear 0.3s;
+       -o-transition: all 2s linear 0.3s;
+       transition: all 2s linear 0.3s;
+       -webkit-transform: translateY(35px);
+       -ms-transform: translateY(35px);
+       -o-transform: translateY(35px);
+       transform: translateY(35px);
+    }
+    div#vnt-row11.lazyloading.show .hotline .text2 h3{
+        opacity: 1;
+        visibility: initial;
+        -webkit-transform: initial;
+        -ms-transform: initial;
+        -o-transform: initial;
+        transform: initial;
+    }
+    div#vnt-row11.lazyloading .hotline .text2 p{
+       opacity: 0;
+       visibility: hidden;
+       -webkit-transition: all 2s linear 0.4s;
+       -o-transition: all 2s linear 0.4s;
+       transition: all 2s linear 0.4s;
+       -webkit-transform: translateY(35px);
+       -ms-transform: translateY(35px);
+       -o-transform: translateY(35px);
+       transform: translateY(35px);
+    }
+    div#vnt-row11.lazyloading.show .hotline .text2 p{
+        opacity: 1;
+        visibility: initial;
+        -webkit-transform: initial;
+        -ms-transform: initial;
+        -o-transform: initial;
+        transform: initial;
+    }
+    div#vnt-row11.lazyloading .girl{
+       opacity: 0;
+       visibility: hidden;
+       -webkit-transition: all 1s linear 0.3s;
+       -o-transition: all 1s linear 0.3s;
+       transition: all 1s linear 0.3s;
+       -webkit-transform: translateX(-100%);
+       -ms-transform: translateX(-100%);
+       -o-transform: translateX(-100%);
+       transform: translateX(-100%);
+    }
+    div#vnt-row11.lazyloading .xeoto{
+       -webkit-transition: all 1s linear 0.3s;
+       -o-transition: all 1s linear 0.3s;
+       transition: all 1s linear 0.3s;
+       -webkit-transform: translate(75%,-15%) scale(0.5);
+       -ms-transform: translate(75%,-15%) scale(0.5);
+       -o-transform: translate(75%,-15%) scale(0.5);
+       transform: translate(75%,-15%) scale(0.5);
+    }
+    div#vnt-row11.lazyloading.show .girl{
+       opacity: 1;
+       visibility: initial;
+       -webkit-transform: initial;
+       -ms-transform: initial;
+       -o-transform: initial;
+       transform: initial;
+    }
+    div#vnt-row11.lazyloading.show .xeoto{
+       -webkit-transform: initial;
+       -ms-transform: initial;
+       -o-transform: initial;
+       transform: initial;
+    }
+
+/*==================================================*/
